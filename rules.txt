@@ -1,0 +1,55 @@
+To add new project
+
+
+1) Go inside project-grid class
+2) Select position to insert 
+3) Insert the code given and fill in the placeholders 
+
+<a
+          href="https://link"
+          target="_blank"
+          class="project-card"
+        >
+          <div class="project-content">
+            <div class="project-header">
+              <h3>TITLE OF PROJECT</h3>
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+            <p>
+              DESCRIPTION OF PROJECT
+            </p>
+            <p></p>
+            <div class="project-tech">
+              <span>Language 1</span>
+              <span>Language 2</span>
+              <span>Language 3</span>
+            </div>
+          </div>
+        </a>
+
+
+
+To add new Achievement
+
+
+1) Go inside achievement-list
+2) Select position to insert replacing placeholders
+3) Insert the following code 
+<div class="achievement-item">
+          <h3>Achievement</h3>
+          <br>
+          <p>Description of Achievement</p>
+        </div>
+
+4) Under script, go to achievementData
+5) Find the position of which place u have inserted ur content in HTML 
+6) In the similar position paste this code inside the object
+
+'hackfest': {
+    title: 'Title of achievement',
+    images: [
+      'assets/folder/pic1.png',
+      'assets/folder/pic2.jpg'
+    ]
+  },
+
